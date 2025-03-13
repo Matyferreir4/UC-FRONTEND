@@ -755,7 +755,7 @@ i {
     }
 
     #testimonial-image-container {
-        flex: 1 1 100%;
+       width: 450px;
     }
 
     #testimonial-image-container i {
@@ -766,21 +766,86 @@ i {
         flex-wrap: wrap;
     }
 
+    /* Contato */
+
     #contact {
-        padding-bottom: 0;
-        flex-direction: column;
+        background-color: var(--main-color);
+        display: flex;
+        width: 450px;
+        padding: 0;
     }
-
+    
     #contact-information {
-        padding: 7rem 1rem;
-    }
-
-    #contact-information i {
-        font-size: 1.5rem;
-        padding: 2rem;
-    }
-
-    #contact-information  form {
+        display: flex;
         flex-direction: column;
+        position: relative;
+    }
+    
+    #contact-information .section-subtitle {
+        color: var(--primary-text-color);
+        font-size: 2rem;
+    }
+    
+    #contact-information i {
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+    
+    #contact-information form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    
+    #contact-information .form-control {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #contact-information input,
+    #contat-information textarea {
+        border: none;
+        width: 450px;
+        height: 3rem;
+    }
+    
+    #contact-information #phone {
+        width: 450px;
+    }
+    
+    #contact-information #message {
+        padding: 1rem;
+        height: 10rem;
+    }
+    
+    #contact-information .btn{
+        width: 450px;
+        border: 3px solid var(--primary-text-color);
+        transition: 0.3s;
+    }
+
+    /* Rodape */
+
+    #footer i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .footer-brand {
+        text-align: center;
+    }
+
+    .networks {
+        margin-bottom: 1rem;
+    }
+
+    .links-container{
+        margin-bottom: 1rem;
+    }
+
+    .links-container {
+        margin-bottom: 1.5rem;
     }
 }
