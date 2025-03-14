@@ -119,12 +119,15 @@ i {
 
 
 .banner.active{
-    opacity: 1; /* banner ativo é mostrado */
+    opacity: 1;
+    transition: 0.4s;
+    z-index: 5; /* banner ativo é mostrado */
 }
 
 .banner{
     max-width: 45%;
     opacity: 0;
+    transition: 0.4s;
     padding: 4rem;
     position: absolute;
 }
@@ -163,10 +166,12 @@ i {
     width: 20px;
     height: 20px;
     background-color: var(--secondary-color);
+    transition: 0.4s;
 }
 
 .dot.active{
     background-color: var(--secondary-bg-color);
+    transition: 0.4s;
 }
 
 /*Áreas de atuação*/
