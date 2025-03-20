@@ -80,7 +80,6 @@ i {
     position: fixed;
     left: 100%;
     top: 0;
-    z-index: 1;
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.90);
@@ -88,7 +87,7 @@ i {
     display: flex;
     flex-direction: column;
     transition: 0.4s;
-    z-index: 5;
+    z-index: 6;
 }
 
 #mobile-navbar a {
